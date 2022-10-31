@@ -8,7 +8,7 @@
 </p>
 
 <center>
-<img src="./images/world.png" alt="kang" width="800"/>
+<img src="./images/world.png" alt="kang" width="600"/>
 </center>
 
 
@@ -18,7 +18,6 @@
 - [Mongo DB](#mongo-db)
 - [Doing Business](#doing-business)  
 - [Foursquare API](#foursquare-api)
-- [Wheighting employees requirements](#wheighting-employees-requirements)
 - [Best place to build a videogame business](#best-place-to-build-a-videogame-business)
 - [References](#references)
 
@@ -31,7 +30,7 @@ In this analysis, I tried to look for the best place in the world to build a new
 * The Global Liveability Index 2022. 
 
 
-### Mongo DB 
+#### Mongo DB 
 
 The data used for this analysis was obtained from the Mongo DB "companies" database, which contains a big number of companies from different fields. For this specific purpose I filtered the data to obtain only the companies that are in the tech and design categories. Later, I got a dataframe with 256 companies and filtered the 5 countries with more companies.
 
@@ -44,7 +43,7 @@ Those countries are:
 
 One problem I encountered with this data is that it stops in 2013, and a lot can change in 9 years, that's why I decided to look in a more up-to-date database to make a more informed decision. 
 
-### Doing Business
+#### Doing Business
 
 I searched in the World Bank's database for the "Doing Business Index" which measures the facility of opening and running a new business in 190 countries in the world. A high ease of doing business ranking means the regulatory environment is more conducive to the starting and operation of a local firm. The rankings are determined by sorting the aggregate scores on 10 topics, each consisting of several indicators, giving equal weight to each topic.
 
@@ -87,26 +86,27 @@ This are the requirements I looked for in the API and the maximum distance from 
 
 
 
-
-
 ### Best place to build a videogame business
 
 #### Melbourne vs. Perth 🥊 🦘
 
 <center>
-<img src="./images/melvsperth.jpg" alt="kang" width="800"/>
+<img src="./images/melvsperth.jpg" alt="kang" width="600"/>
 </center>
 
+As we could see in the maps from the 2 cities the companies location in Melbourne has much more amenities that satisfy the employees' needs, the only thing that is better in Perth is the distance to the airport. Perth is also one of the few cities in the world that don't have Starbucks, so the employees wouldn't be that happy. 
 
+Apart from having more amenities, if we look at the **The Global Liveability Index 2022** made by the Economists Intelligence Unit, Melbourne is considered one of the top 10 best cities to live in, considering: stability, healthcare, culture & environment, education and infraestructure. 
 
 <center>
 <img src="./images/live.png" alt="kang" width="800"/>
 </center>
 
 
+So it's easy to see that **Melbourne** is the clear winner, and the treasure hunt ends in 📍🏴‍☠️(-37.8042193, 144.9755475) 🏴‍☠️📍 this coordinates that have the all the requirements to start a great business and to live a great life : ) 
 
 
 ### References
 
-- https://rsf.org/en
-- https://rsf.org/en/index-methodologie-2022
+- https://archive.doingbusiness.org/es/doingbusiness
+- https://pages.eiu.com/rs/753-RIQ-438/images/Liveability-free-report-V13-revised.pdf 
